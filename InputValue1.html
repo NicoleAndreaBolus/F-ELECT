@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    
+<body>
+
+    <h3 id="sum"></h3>
+    <h3 id="prod"></h3>
+    <h3 id="ave"></h3>
+
+</body>
+
+<script>
+
+    let $num1 = parseFloat(prompt("Enter a first number: "));
+    let $num2 = parseFloat(prompt("Enter a second number: "));
+
+    let $sum = $num1 + $num2;
+    let $prod = $num1 * $num2;
+    let $ave = ($num1 + $num2) / 2;
+
+
+    document.getElementById("sum").innerHTML = `The sum is : ${$sum}`;
+    document.getElementById("prod").innerHTML = `The product is : ${$prod}`;
+    document.getElementById("ave").innerHTML = `The average is : ${$ave}`;
+
+    alert("The sum is : " + $sum + "\nProduct is : " + $prod + "\nAverage is : " + $ave);
+
+</script>
+
+<script src="InputValue1.js"></script>
+
+</html>
